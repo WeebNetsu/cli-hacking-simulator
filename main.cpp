@@ -2,7 +2,7 @@
 #include <iostream>
 #include "Color.h"
 
-//gets user inpu
+//gets user input
 void getInput(std::string username, std::string message = "", Color::Modifier userColor = (Color::FG_BLUE), Color::Modifier defColor = (Color::FG_DEFAULT)){
     std::string temp;
     std::cout << userColor << username << " " << defColor << message;
